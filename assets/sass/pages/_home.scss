@@ -1,0 +1,562 @@
+main {
+    .handmade {
+        background: url("/assets/imgs/Rectangle-YZ9P6kWjMnUBNL6W.png");
+        height: 100vh;
+        background-repeat: no-repeat;
+        margin-top: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        box-sizing: border-box;
+
+        .orta {
+            text-align: center;
+
+            h1 {
+                font-size: 100px;
+                color: white;
+                margin-bottom: 40px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: 500;
+            }
+
+            p {
+                margin-bottom: 30px;
+                color: rgb(227, 214, 214);
+                font-size: 27px;
+            }
+
+            button {
+                background-color: #ffffff;
+                border: none;
+                color: rgb(208, 67, 159);
+                padding: 21px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: rgb(218, 225, 225);
+                transition: all .4s;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    main {
+        .handmade {
+            .orta {
+                h1 {
+                    font-size: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        .handmade {
+            .orta {
+                h1 {
+                    font-size: 42px;
+                }
+            }
+        }
+
+        .ourBestsellers {
+            .best {
+                h2 {
+                    text-align: center;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 375px) {
+    main {
+        .handmade {
+
+            .orta {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+
+                h1 {
+                    font-size: 42px;
+                }
+
+                p {
+                    width: 80%;
+                }
+            }
+        }
+
+
+    }
+}
+
+.ourBestsellers {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .best {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        height: 300px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 70px;
+        color: rgb(73, 46, 122);
+    }
+
+    .cards {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+        justify-content: space-around;
+
+        .card {
+            padding: 10px;
+        }
+    }
+
+    .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: rgb(64, 48, 93);
+        font-size: 30px;
+        margin-top: 20px;
+
+        p {
+            margin-top: 20px;
+        }
+    }
+
+    .buy_btn {
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .buybtn {
+            background-color: #ffffff;
+            border: 2px solid black;
+            color: rgb(118, 45, 93);
+            padding: 20px 50px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        .buybtn:hover {
+            background-color: rgb(118, 45, 93);
+            color: white;
+            transition: all .2s;
+        }
+    }
+}
+
+@media screen and (max-width: 1050px) {
+    main {
+        .ourBestsellers {
+            .cards {
+                display: flex;
+                flex-direction: row;
+                justify-content: center;
+                align-items: center;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 1210px) {
+    main {
+        .ourBestsellers {
+            .best {
+                font-size: 60;
+            }
+
+            .cards {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+            }
+
+        }
+    }
+}
+
+.homeDecor {
+    background: url("/assets/imgs/Untitled-AzGRJwMK6BHxZypJ.jpeg");
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin-top: 72px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-position: center;
+    box-sizing: border-box;
+
+    .mid {
+        text-align: center;
+
+        h2 {
+            font-size: 100px;
+            color: white;
+            margin-bottom: 40px;
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-weight: 500;
+        }
+
+        p {
+            margin-bottom: 30px;
+            color: rgb(255, 255, 255);
+            font-size: 27px;
+        }
+
+        button {
+            background-color: #ffffff;
+            border: none;
+            color: rgb(107, 44, 85);
+            padding: 21px 50px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: rgb(218, 225, 225);
+            transition: all .4s;
+        }
+    }
+}
+
+
+@media screen and (max-width: 1225px) {
+    main {
+        .homeDecor {
+            .mid {
+                h2 {
+                    font-size: 100px;
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 500px) {
+    main {
+        .homeDecor {
+            .mid {
+                h2 {
+                    font-size: 42px;
+                }
+            }
+        }
+    }
+}
+
+main {
+    .two_pic {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 8%;
+        width: 100%;
+
+        .row {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            width: 100%;
+
+            .left {
+                width: 50%;
+                padding: 10px;
+
+                img {
+                    width: 100%;
+
+                }
+
+                h2 {
+                    font-size: 40px;
+                    font-family: "Roboto", sans-serif;
+                    color: #4d2c57;
+                    margin-top: 20px;
+                }
+
+                p {
+                    font-family: "Roboto", sans-serif;
+                    color: #4d2c57;
+                    margin-top: 20px;
+                }
+
+                button {
+                    background-color: #ffffff;
+                    border: 2px solid rgb(118, 45, 93);
+                    color: rgb(118, 45, 93);
+                    padding: 20px 50px;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    font-size: 16px;
+                    margin-top: 30px;
+                    cursor: pointer;
+                }
+
+                button:hover {
+                    background-color: #4d2c57;
+                    color: white;
+                    transition: all .4s;
+
+                }
+
+            }
+
+        }
+
+        .right {
+            width: 50%;
+            padding: 10px;
+
+            img {
+                width: 100%;
+
+            }
+
+            h2 {
+                margin-top: 20px;
+                font-size: 40px;
+                font-family: "Roboto", sans-serif;
+                color: #4d2c57;
+            }
+
+            p {
+                font-family: "Roboto", sans-serif;
+                color: #4d2c57;
+                margin-top: 20px;
+            }
+
+            button {
+                background-color: #ffffff;
+                border: 2px solid rgb(118, 45, 93);
+                color: rgb(118, 45, 93);
+                padding: 20px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                cursor: pointer;
+                margin-top: 30px;
+            }
+
+            button:hover {
+                background-color: #4d2c57;
+                transition: all .4s;
+                color: white;
+            }
+
+        }
+    }
+}
+
+@media screen and (max-width: 1225px) {
+    main {
+        .two_pic {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            .row {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                text-align: left;
+
+                .left {
+
+                    h2 {
+                        font-size: 30px;
+                    }
+
+                    p {
+                        font-size: 20px;
+                        width: 100%;
+                    }
+
+
+                }
+
+                .right {
+
+                    h2 {
+                        font-size: 30px;
+                    }
+
+                    p {
+                        width: 100%;
+                        font-size: 20px;
+                    }
+
+
+                }
+            }
+        }
+    }
+}
+
+main {
+    .sign_up {
+        background: url("/assets/imgs/Frame-AGBpDkZaG5cRpbaw.png");
+        height: 100vh;
+        background-repeat: no-repeat;
+        margin-top: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-size: cover;
+        background-position: center;
+        box-sizing: border-box;
+
+        .middle {
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+
+            h2 {
+                font-size: 60px;
+                color: white;
+                margin-bottom: 40px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+                font-weight: 500;
+            }
+
+            input {
+                width: 350px;
+                height: 50px;
+                color: rgb(62, 56, 56);
+                background: rgb(237, 234, 234);
+                border: none;
+                opacity: 0.5;
+                margin-bottom: 20px;
+                z-index: 1;
+            }
+
+            button {
+                background-color: #ffffff;
+                border: none;
+                color: rgb(107, 44, 85);
+                padding: 21px 50px;
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                font-size: 16px;
+                margin: 4px 2px;
+                cursor: pointer;
+            }
+
+            button:hover {
+                background-color: rgb(218, 225, 225);
+                transition: all .4s;
+            }
+        }
+    }
+}
+
+main {
+    .follow {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+
+        h2 {
+            font-size: 70px;
+            color: rgb(78, 3, 78);
+            margin-top: 100px;
+            margin-bottom: 60px;
+            text-align: center;
+        }
+
+        .three {
+            display: flex;
+            flex-direction: row;
+
+            img {
+                margin-top: 50px;
+                margin-bottom: 50px;
+                max-width: 400px;
+                max-height: 400px;
+                padding: 20px;
+            }
+        }
+
+        a {
+            font-size: 26px;
+            margin-bottom: 40px;
+            text-decoration: underline;
+        }
+    }
+
+    @media only screen and (max-width: 1225px) {
+        .follow {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+
+            h2 {
+                font-size: 55px;
+                color: rgb(78, 3, 78);
+                margin-top: 50px;
+            }
+
+            .three {
+                display: flex;
+                flex-direction: column;
+
+                img {
+                    margin-top: 10px;
+                    margin-bottom: 10px;
+                    max-width: 400px;
+                    max-height: 400px;
+
+                }
+            }
+
+            a {
+                font-size: 26px;
+                margin-bottom: 30px;
+            }
+        }
+    }
+}

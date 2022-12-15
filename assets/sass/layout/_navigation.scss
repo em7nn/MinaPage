@@ -1,0 +1,63 @@
+.alma{
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
+    max-width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+    height: 72px;
+    width: 100%;
+    top: 0;
+    z-index: 2;
+    .menu{
+        display: none;
+        font-size: 30px;  
+    }
+    .name{
+        img{
+            height: 20px;
+        }
+    }
+    .navbar_ul{
+        ul{
+            display: flex;
+            flex-direction: row;
+
+            li{
+                margin-left: 50px;
+                font-size: 20px;
+                #uc:hover{
+                    text-decoration: underline;
+                }
+                #arrow{
+                    margin-left: 10px;
+                    transform: rotate(360deg);
+                    transition: all .3s;
+                }
+                #arrow:hover{
+                    transform:rotate(180deg);
+                    transition: all .3s;
+                }
+            }
+        }
+    }
+}
+@media screen and (max-width: 996px) {
+    .alma{
+        .menu{
+            display: block;
+        }
+        .navbar_ul{
+            ul{
+                li{
+                    display: none;
+                }
+                .ayri{
+                    display: block;
+                    
+                }
+            }
+        }
+    }
+}
